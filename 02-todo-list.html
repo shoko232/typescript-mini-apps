@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <main>
+      <form id="todo-form" class="todo-form">
+        <input type="text" id="todo-input" class="todo-input" placeholder="新しいTodoを入力" autocomplete="off">
+        <button type="submit" class="todo-submit">追加</button>
+      </form>
+
+      <ul id="todo-list" class="todo-list"></ul>
+    </main>
+
+    <script type="module" src="/src/apps/02-todo-list/main.ts"></script>
+  </body>
+</html>

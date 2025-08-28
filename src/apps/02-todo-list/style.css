@@ -1,0 +1,59 @@
+
+body {
+  margin: 10px;
+}
+
+button {
+  height: 32px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin: 8px;
+}
+
+span {
+  flex: 1;
+}
+
+.todo-form {
+  display: flex;
+  column-gap: 8px;
+}
+
+.todo-input {
+  flex: 1;
+  height: 32px;
+  box-sizing: border-box;
+}
+
+.todo-submit {
+  background: #edffed;
+  color: green;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  padding: 0;
+}
+
+.todo-delete {
+  background: #ffeded;
+  color: red;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+.completed {
+  span {
+    color: #aaa;
+  }
+}
