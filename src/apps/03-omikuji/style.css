@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.omikuji {
+  text-align: center;
+}
+
+.omikuji-button {
+  width: 50%;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background: #00a3e6;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
