@@ -11,7 +11,7 @@ export default defineConfig({
         // counter: resolve(__dirname, '01-counter.html'),
         // todoList: resolve(__dirname, '02-todo-list.html'),
         // omikuji: resolve(__dirname, '03-omikuji.html'),
-        // calculator: resolve(__dirname, '04-calculator.html'),
+        calculator: resolve(__dirname, '04-calculator.html'),
         // formValidation: resolve(__dirname, '05-form-validation.html'),
       },
     },
